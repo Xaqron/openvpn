@@ -15,3 +15,12 @@ During installation you need to specify some configurations:
 <img src ="img/config.png">
 
 If you have no plan for redirecting traffic via `stunnel` then just proceed with default options (except for `DNS` provider which is recommended to be used the google ones).
+
+# add/remove users
+```bash
+sudo bash openvpn.sh
+```
+Client config file (*.ovpn) will be placed at current user home.
+```
+ls ~/*.ovpn
+```
