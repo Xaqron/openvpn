@@ -2,7 +2,8 @@
 openvpn easy installation
 
 ```bash
-wget https://raw.githubusercontent.com/Xaqron/openvpn/master/install.sh
+git clone https://github.com/Xaqron/openvpn.git
+cd openvpn
 sudo bash install.sh
 ```
 
