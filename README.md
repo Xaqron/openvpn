@@ -9,7 +9,7 @@ sudo bash install.sh
 During installation you need to specify some configurations:
 * Your machine `public IP` address
 * Although `UDP` protocol is recommended, you need to use `TCP` if you are gonna redirect traffic via [stunnel](https://www.stunnel.org) later.
-* openvpn uses `UDP 1194` as default protocol/port. If you plan to use `stunnel` then a port like `443` or `578` over `TCP` protocol is less suspicious.
+* openvpn uses `UDP 1194` as default protocol/port. If you plan to use `stunnel` then a ~~port like `443` or `578`~~ use some TCP port (i.e. `1194`).
 * Use Google as `DNS` provider (option two).
 
 <img src ="img/config.png">
